@@ -2,6 +2,36 @@
 
 Safe agents for use with GitHub copilot.
 
+# Installation
+
+Make a `~/.copilot` folder if you do not already have one:
+
+```
+$ mkdir ~/.copilot
+```
+
+Inside that folder, clone this repo to the name `agents`:
+
+```
+$ cd ~/.copilot
+$ git clone https://github.com/sustainablelab/dotcopilot-agents.git agents
+```
+
+Now you have folder `~/.copilot/agents`:
+
+```
+.copilot/
+├── agents
+│   ├── agents
+│   │   ├── safe-agent.agent.md
+│   │   └── safe-ask.agent.md
+│   └── README.md
+└── ide
+```
+
+In VSCode, when you click on the agent to select (`Agent`, `Ask`, `Plan`)
+you will also see the new options for `Safe Ask`, and `Safe Agent`.
+
 # GitHub copilot default agents
 
 GitHub copilot has three agent selections: `Agent mode` (`Ctrl+Shift+Alt+I`),
